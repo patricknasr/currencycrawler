@@ -3,6 +3,7 @@
     {
       "source": "functions",
       "codebase": "default",
+      "runtime": "nodejs16",
       "ignore": [
         "node_modules",
         ".git",
@@ -16,11 +17,13 @@
     }
   ],
   "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+    "public": "webapp/build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }
