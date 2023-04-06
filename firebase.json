@@ -17,7 +17,7 @@
     }
   ],
   "hosting": {
-    "public": "webapp/build",
+    "public": "webapp",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
