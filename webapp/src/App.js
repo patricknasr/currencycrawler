@@ -8,12 +8,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>
-            Exciting things happening in the background. Sign up to receive
-            updates on new releases.
-          </code>
-        </p>
+        <div className="Text-wrapper">
+          <p>
+            <code>
+              Exciting things happening in the background. Sign up to receive
+              updates on new releases.
+            </code>
+          </p>
+        </div>
         <EmailForm />
       </header>
     </div>
