@@ -10,10 +10,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <div className="Text-wrapper">
           <p>
-            <code>
-              Exciting things happening in the background. Sign up to receive
-              updates on new releases.
-            </code>
+            <code>🚧 Construction happening in the background. 🚧</code>
+          </p>
+          <p>
+            <code>✉️ Sign up to receive updates on new releases. ✉️</code>
           </p>
         </div>
         <EmailForm />
