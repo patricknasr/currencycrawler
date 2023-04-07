@@ -4,5 +4,5 @@ Current site: https://currency-crawler-6b9f7.web.app/
 
 Platform for viewing best exchnage rates for AUD
 
-Built using typescript, react, firebase, mongoDB
+Built using typescript, react, firebase, mongoDB, aws elastic beanstalk
 
