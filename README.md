@@ -6,3 +6,7 @@ Platform for viewing best exchnage rates for AUD
 
 Built using typescript, react, firebase, mongoDB, aws elastic beanstalk
 
+
+Takeaways:
+- Use next.js in conjunction with vercel for deployment next time (https://www.reactlibraries.com/blog/why-you-should-use-nextjs-and-vercel-in-2023)
+
